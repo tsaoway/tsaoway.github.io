@@ -3,7 +3,7 @@ permalink: /
 title: "Welcome to Hui Cao's homepage!"
 excerpt: "About me"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
