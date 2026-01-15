@@ -1,35 +1,33 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your entire site.
 
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Hui Cao" # 网站标签页显示的标题
+title                    : "Hui Cao"
 title_separator          : "-"
-name                     : &name "Hui Cao" # 您的名字
-description              : &description "Associate Professor at Wuhan University of Technology" # 简短描述，用于SEO
-url                      : "https://tsaoway.github.io" # 您的网址
-baseurl                  : "" # 保持为空
-repository               : "tsaoway/tsaoway.github.io" # 您的仓库地址
+name                     : &name "Hui Cao"
+description              : &description "Associate Professor at Wuhan University of Technology"
+url                      : "https://tsaoway.github.io"
+baseurl                  : ""
+repository               : "tsaoway/tsaoway.github.io"
 
 # Site Author - 侧边栏的个人信息设置
 author:
   # Biographic information
-  avatar           : "profile.png" # 头像文件名，稍后我们需要把您的照片命名为profile.png放入images文件夹
-  name             : "Hui Cao"     # 侧边栏显示的名字
+  avatar           : "profile.png"   # 请确保您上传的照片名为 profile.png 并放在 images 文件夹中
+  name             : "Hui Cao"
   pronouns         : # 留空
-  bio              : "Ph.D. from CityU HK (2017)<br>Assoc. Prof. at WHUT" # 侧边栏简介，支持HTML换行
+  bio              : "Ph.D. from CityU HK (2017)<br>Assoc. Prof. at WHUT"
   location         : "Wuhan, China"
   employer         : "Wuhan University of Technology"
   uri              : # URL
-  email            : "iehuicao@whut.edu.cn" # 侧边栏显示的邮箱按钮
+  email            : "iehuicao@whut.edu.cn"
 
-  # Academic websites - 学术链接 (把不需要的留空即可)
+  # Academic websites - 学术链接
   academia         : # URL
   arxiv            : # URL
-  googlescholar    : "https://scholar.google.com/citations?user=您的ID" # 如果有谷歌学术主页，填在这里
+  googlescholar    : # "您的谷歌学术主页链接" (如果有，请填入引号内)
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -40,11 +38,241 @@ author:
   scopus           : # URL
   zotero           : # URL
 
-
-  # Repositories and software development (不需要的留空)
+  # Repositories and software development
   bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "tsaoway" # 您的GitHub用户名
-  kaggle           : # Username  
+  github           : "tsaoway"
+  kaggle           : # Username
   stackoverflow    : # User number
+
+  # Social media (不需要的已留空)
+  artstation       : # Username
+  bluesky          : # Username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - 论文分类标题
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings (系统设置，建议保持默认)
+teaser                   : # filename of teaser fallback teaser image placed in /images/
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook"
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+atom_feed:
+  hide                   : false
+  path                   : # blank (default) uses feed.xml
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Social media default site image
+og_description           : # Social media default site image description
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : "false"
+  google:
+    tracking_id          :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
