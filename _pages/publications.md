@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-I have published more than 30 SCI/EI papers and hold 3 authorized national invention patents.
-
 **Academic Service:**
 * **Reviewer for International Journals:** IEEE TSP, IEEE IoT Journal, IEEE TAES, IEEE SPL, IEEE CL, Signal Processing, DSP, etc.
 
@@ -54,7 +52,3 @@ I have published more than 30 SCI/EI papers and hold 3 authorized national inven
 5. Hai Wang, Yuntao Wu, Yanbing Zhang and **Hui Cao**, “Joint frequency-elevation-azimuth estimation without pairing using L-shaped array,” *Proceedings of the IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC2012)*, pp. 320 – 325, Aug. 2012, Hong Kong.
 
 ---
-
-## Projects
-
-Hosted and participated in a number of projects, including national-level projects, provincial and ministerial-level projects, and enterprise-commissioned projects.
